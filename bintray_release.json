@@ -31,8 +31,8 @@
 
 	"files":
 		[
-		{"includePattern": "./README.md", "excludePattern": ".*/vendor/.*", "uploadPattern": "doc/README.md", "listInDownloads": true},
-		{"includePattern": "./.travis.yml", "excludePattern": ".*/vendor/.*", "uploadPattern": "spec/.travis.yml"}
+		{"includePattern": "./README.md", "excludePattern": ".*/vendor/.*", "uploadPattern": "0.6/doc/README.md", "listInDownloads": true},
+		{"includePattern": "./.travis.yml", "excludePattern": ".*/vendor/.*", "uploadPattern": "0.6/spec/.travis.yml"}
 		],
 	"publish": true
 }
