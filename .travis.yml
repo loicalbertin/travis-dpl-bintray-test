@@ -8,8 +8,7 @@ script:
 deploy:
   - provider: bintray
     edge:
-      source: loicalbertin/dpl
-      branch: GH-944-bintray-artifacts-download-list
+      branch: sf-port-950
     file: "bintray_release.json"
     user: "loicalbertin"
     key: 
