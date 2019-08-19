@@ -8,10 +8,11 @@ script:
 deploy:
   - provider: bintray
     edge:
+      source: loicalbertin/dpl
       branch: sf-port-950
     file: "bintray_release.json"
     user: "loicalbertin"
-    key: 
+    key:
       secure: "Z9B7ZMWhhTR8ngO/Gk5YuT0At6zRj/+sY99rkc5JcDqRU9fFiEZn2Vs0hxxWIJgOG2ls3DAUkkIHwB6xVSmEliNo8PqJsyuV+csAvTWBjbC5LJIIT51oGnKoPzwYLAgihBN/Qv4EHCbYbDiW9vGLhOSf2ZR7y5l72R2WPgzHjlM/Qbl8MoOD0CulmYtUeAMTWgmDxbnC3JCi1auBzUise6ll1tHiV2Ktz8hLYGwe6fQcBqD43EDyJNVN7tQMxqSrA5YRIACzNKTVTSpc6l7GPjfP2oqRdRyS36aUmFkj5dlRSikaCiS5blEgtNDnde1abElyxeuTsVdrK+rXBPveLF7T/k/6JoC6JJKvMjzDXx2LFcbwgkVGZbEzIiv5FeEBNg1dnB1lXkiYbJXBf0wefwvbKhrH/myvvLKBIHyl2fPbHPKsN2LdkZOrHx3JgtuBsuLRV2VTwCb7I2UITWuEuMcRC3BtUrmVrCzxbj5CQjlcnc/zZuT3G0TnrzjNl3W4QQkvmXnjIEZLguAoNCfyJbxKZQuPXXBEfZwJI03ag6nYUG8enTBy7FUHdMaudLmQFbtpADHpOFcWTAFglLAN9GMpa/6aBoNc3c04zpSlszBSAlh91V8AyspsOHZjSysbPcmPH3hvsHxJInJ/BS51rnk/iP3t9CX8T4IStJkxMu4="
     skip_cleanup: true
     on:
